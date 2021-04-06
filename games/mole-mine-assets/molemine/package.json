@@ -1,0 +1,16 @@
+{
+  "name": "Mole Mine",
+  "main": "index.html",
+  "window": {
+    "title": "Mole Mine",
+    "icon": "img/favicon.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 540,
+    "height": 900,
+    "min_width": 360,
+    "min_height": 600,
+    "max_width": 720,
+    "max_height": 1200
+  }
+}

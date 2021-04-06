@@ -1,0 +1,530 @@
+/* ********************************** MEDIA SIZE ********************************** */
+
+nav {
+	width: 100%;
+}
+
+nav, nav a:link, nav a:visited, nav a:hover, .nav_footer_height {
+	height: 50px;
+}
+
+.spacer {
+	width: 100%;
+	height: 10px;
+}
+
+nav a:link, nav a:visited, nav a:hover {
+	width: 110px;
+}
+
+.fit_nav_img {
+	max-width: 90%;
+	max-height: 90%;
+	vertical-align: middle;
+}
+
+.bow_row_center:after, .box_row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.box_main {
+	width: 100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box_row_dark {
+	width: 97%;
+	max-width: 980px;
+	color: #eeeeee;
+	background-color: #222831;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box_nav_top_dark {
+	width: 97%;
+	max-width: 980px;
+	height: 10px;
+	color: #eeeeee;
+	background-color: #222831;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box_row {
+	width: 97%;
+	max-width: 980px;
+	color: #222831;
+	background-color: #eeeeee;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box_row_center {
+	width: 97%;
+	max-width: 980px;
+	display: block; 
+	margin: 0 auto;
+	text-align: center;
+}
+
+.box_content {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.box_half_left, .box_half_right {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.box_footer {
+	font-size: 8px;
+}
+
+.path_size {
+	font-size: 12px;
+}
+
+.lop_unit_image {
+	padding-top: 2px;
+	width: 64px;
+}
+
+.lop_hero_skill_td {
+	width: 40%;
+}
+
+.lop_hero_interaction_gif {
+	width: 100%;
+	max-width: 584px;
+}
+
+.lop_guide_table {
+	width: 100%;
+}
+
+.hide_if_too_small {
+	display: none;
+}
+
+@media(min-width: 600px) {
+	nav a:link, nav a:visited, nav a:hover, .nav_entry {
+		width: 170px;
+	}
+
+	.fit_nav_img {
+		max-width: 80%;
+		max-height: 80%;
+		vertical-align: middle;
+	}
+
+	.box_footer {
+		font-size: 10px;
+	}
+
+	.path_size {
+		font-size: 12px;
+	}
+
+	.lop_unit_image {
+		padding-top: 0px;
+		width: 128px;
+	}
+
+	.lop_hero_skill_td {
+		width: 30%;
+	}
+
+	.lop_guide_table {
+		width: 66.67%;
+	}
+
+	.hide_if_too_small {
+		display: initial;
+	}
+}
+
+@media(min-width: 800px) {
+	.box_half_left {
+		float: left;
+		width: 49.4849%;
+		padding-top: 10px;
+		padding-right: 1.03%;
+	}
+
+	.box_half_right {
+		float: left;
+		width: 49.4849%;
+		padding-top: 10px;
+	}
+
+	.lop_hero_skill_td {
+		width: 20%;
+	}
+
+	.lop_guide_table {
+		width: 50%;
+	}
+}
+
+/* ********************************** TABLE & CENTER ********************************** */
+
+nav a:link, nav a:visited, nav a:hover {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+table, tbody, tr, td, th {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	vertical-align: top;
+	border-collapse: collapse;
+}
+
+.td_padding_left {
+	padding-left: 0.7%;
+}
+
+.tr_spacer_mini {
+	height: 6px;
+}
+
+.lop_guide_table tr td {
+	padding: 1px;
+	padding-right: 8px;
+	padding-left: 0px;
+}
+
+/* ********************************** BODY, GENERAL ********************************** */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Muli", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: left;
+	color: #222831;
+	background-color: #eeeeee;
+	overflow-y: scroll;
+	overflow-x: hidden;	
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: underline;
+}
+
+a:link, a:visited {
+	color: #393e46;
+}
+
+a:hover {
+	color: #0092ca;
+}
+
+.full_width {
+	width: 100%;
+}
+
+/* ********************************** FOOTER ********************************** */
+
+.box_footer {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.box_footer p {
+	width: 100%;
+	line-height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+.box_footer a:link, footer a:visited {
+	color: #eeeeee;
+}
+
+.box_footer a:hover {
+	color: #0092ca;
+}
+
+/* ********************************** NAV ********************************** */
+
+nav {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+nav ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav_left_space {
+	width: 10px;
+	height: 50px;
+	margin: 0;
+}
+
+nav a:link, nav a:visited, nav a:hover {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #eeeeee;
+	background-color: #222831;
+	height: 49.9px; /* HACK */
+}
+
+nav a:hover {
+	color: #eeeeee;
+	background-color: #0092ca;
+}
+
+#nav_active {
+	color: #222831;
+	background-color: #eeeeee;
+	height: 51px;
+	margin-top: -1px;
+}
+
+/* ********************************** IFRAME ********************************** */
+
+.iframe_wrapper_outer {
+	width: 100%;
+	max-width: 700px;
+	padding-top: 10px;
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+}
+
+.iframe_wrapper_inner {
+	position: relative;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 56.25%; /* 16:9 */
+}
+
+.iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* ********************************** MISC ********************************** */
+
+.img {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.img_block {
+	display: block;
+}
+
+.img_800 {
+	width: 100%;
+	max-width: 800px;
+	display: block;
+}
+
+.img_600 {
+	width: 100%;
+	max-width: 600px;
+	display: block;
+}
+
+.img_400 {
+	width: 100%;
+	max-width: 400px;
+	display: block;
+}
+
+.img_200 {
+	width: 100%;
+	max-width: 200px;
+	display: block;
+}
+
+.fit {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.box_game {
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.game_headline {
+	width: 100%;
+	height: 110px;
+	color: #eeeeee;
+	background-color: #222831;
+}
+
+.game_headline_img {
+	height: 90px;
+	padding: 10px;
+}
+
+.game_headline_text {
+	height: 90px;
+	padding: 10px;
+	margin: 0;
+	line-height: 90px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.black_headline {
+	width: 100%;
+	height: 70px;
+	color: #eeeeee;
+	background-color: #222831;
+}
+
+.black_headline_text {
+	height: 50px;
+	padding: 10px;
+	margin: 0;
+	line-height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.game_details {
+	z-index: 1001;
+	position: relative;
+	height: 24px;
+	padding: 10px;
+	bottom: 49px;
+	margin-bottom: -49px;
+	margin-left:auto;
+	margin-right:0;
+	
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #222831;
+
+	width: intrinsic;           /* Safari / WebKit */
+ 	width: -moz-max-content;    /* Firefox / Gecko */
+  	width: -webkit-max-content; /* Chrome */
+}
+
+.game_link:link, .game_link:visited {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #eeeeee;
+}
+
+.game_link:hover {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #0092ca;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+hr { 
+    width: 100%; 
+    height: 2px; 
+    margin: 0 auto;
+    color: #0092ca;
+    background: #0092ca;
+}
+
+.hr_spacer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+}
+
+ul {
+	margin: 0;
+	padding-top: 10px;
+}
+
+/* ********************************** FONT ********************************** */
+
+/* vietnamese */
+@font-face {
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/assets/fonts/muli/muli-viet.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/assets/fonts/muli/muli-latin-ext.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/assets/fonts/muli/muli-latin.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ********************************** COLORS, LOP ********************************** */
+
+._a { color: #009900; }
+._x { color: #1a5bff; }
+._b { color: #cc2c00; }
+._y { color: #bf9900; }
+._lop_gold { color: #d28000; }
+._lop_epic { color: #5a9cdd; }
+._lop_stars_off {color: #cccccc;}
