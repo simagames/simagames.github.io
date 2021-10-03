@@ -334,6 +334,32 @@ nav a:hover {
 	height: 100%;
 }
 
+.iframe_wrapper_youtube_outer {
+	max-width: 100%;
+	width: 616px;
+}
+
+.iframe_wrapper_youtube {
+	position: relative;
+	max-width: 100%;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0px;
+}
+
+.iframe_wrapper_steam {
+	position: relative;
+	max-width: 616px;
+	padding-bottom: 190px; /* fix height 190 */
+	height: 0px;
+}
+
+.iframe_wrapper_itchio {
+	position: relative;
+	max-width: 616px;
+	padding-bottom: 167px; /* fix height 167 */
+	height: 0px;
+}
+
 /* ********************************** MISC ********************************** */
 
 .img {
@@ -341,6 +367,11 @@ nav a:hover {
 	height: auto;
 	padding: 0;
 	margin: 0;
+	display: block;
+}
+
+.img_responsive {
+	max-width: 100%;
 	display: block;
 }
 
