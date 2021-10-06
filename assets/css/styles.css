@@ -442,6 +442,7 @@ nav a:hover {
 
 .game_headline_img {
 	height: 90px;
+	max-width: 93%;
 	padding: 10px;
 }
 
