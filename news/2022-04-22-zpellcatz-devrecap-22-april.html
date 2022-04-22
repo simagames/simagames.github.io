@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ZpellCatz DevRecap Feb - April '22</title>
+    <meta charset="utf-8">
+    <meta http-equiv='pragma' content='no-cache' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16">
+    <link rel="icon" href="/logo_32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/logo_96.png" type="image/png" sizes="96x96">
+  </head>
+  <body>
+    <div class="box_main">
+      <div class="box_nav_top_dark"></div>
+      <div class="box_row_dark nav_footer_height">
+        <nav>
+          <ul>
+            <li class="nav_left_space"></li>
+            <li> <a href="/" id="nav_active"><img src="/assets/images/3_sg_black_27.png" alt="SimaGames" class="fit_nav_img"></a></li>
+            <li> <a href="/games.html">Games</a></li>
+            <li> <a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="box_row">
+        <div class="box_content path_size">
+          <a href="/">Home</a>
+          &#62; 
+          <a href="/news-archive.html">News</a>
+          &#62; 
+          <a href="/news/2022-04-22-zpellcatz-devrecap-22-april.html">ZpellCatz DevRecap Feb - April '22</a>
+        </div>
+      </div>
+      <div class="box_row">
+        <div class="box_content">
+          <div class="black_headline">
+            <h1 class="black_headline_text">ZpellCatz DevRecap Feb - April '22</h1>
+          </div>
+          <p>April 22, 2022</p>
+        </div>
+      </div>
+      <div class="box_row">
+        <div class="box_content">
+          <p>
+            Hey there, fellow catz! After some technical system adjustments <a href="/news/2022-02-17-zpellcatz-update.html">earlier this year</a>, 
+            I was able to make some progress with the story of ZpellCatz in the last months. Want to know more? Read on.
+          </p>
+          <p> </p>
+          <h2>Chapter 1 Progress</h2>
+          <p>
+            The story of ZpellCatz will be told via the mandatory main quests. Finishing main quests or clearing main quest related dungeons will reveal 
+            some small parts of the story. In addition to this, NPCs have a personality with a distinct welcome dialogue. So talking to them also gives 
+            some info on the Isle of Mana (the island where ZpellCatz is played).
+          </p>
+          <p> </p>
+          <img src="/games/zpellcatz-assets/dd/recap-2022-04/chapter1_npc_dialogue.gif" alt="NPC Dialogue" class="img_616">
+          <p>
+            In terms of workload, chapter 1 is clearly the most extensive one. But I managed to write all welcome dialogues and default dialogues of 
+            NPCs that exist to this day. In addition to this, the early quests now have proper dialogue and we have the first two cinematics / flashbacks 
+            finished. Progress!
+          </p>
+          <p> </p>
+          <h2>Dialogue with Colors</h2>
+          <p>
+            When I was working on chapter 1, I noticed that the dialogues looked a bit dull (visually ^^ ). So, I added colored text functionality to 
+            dialogues in order to let the NPCs emphasize certain words.
+          </p>
+          <p> </p>
+          <img src="/games/zpellcatz-assets/dd/recap-2022-04/chapter1_npc_colored_text.gif" alt="Colored NPC Text" class="img_616">
+          <p>
+            Now you might wonder why colored text is worth mentioning at all... Well, I already used colored text to slowly reveal the NPCs dialogue 
+            over time. The revealed text has the default color while the hidden text has color "invisible". 
+            <br>
+            <br>
+            Example, 4 steps: <br>
+            - <b>The first part is revealed </b>&lt;color=invisible&gt;the rest is hidden.&lt;/color&gt; <br>
+            - <b>The first part is revealed t</b>&lt;color=invisible&gt;he rest is hidden.&lt;/color&gt; <br>
+            - <b>The first part is revealed th</b>&lt;color=invisible&gt;e rest is hidden.&lt;/color&gt; <br>
+            - <b>The first part is revealed the</b>&lt;color=invisible&gt; rest is hidden.&lt;/color&gt; <br>
+            <br>
+            <br>
+            So, if we just add a new tag for emphasize color (e.g. &lt;color=green&gt;), we might get in trouble. Lets have a look at another example. <br>
+            <br>
+            <br>
+            Example with emphasize color: <br>
+            - <b>Hey &lt;color=green&gt;you&lt;/color&gt;!</b> // full text <br>
+            - <b>H</b>&lt;color=invisible&gt;ey &lt;color=green&gt;you&lt;/color&gt;!&lt;/color&gt; // start, only one character shown <br>
+            - <b>He</b>&lt;color=invisible&gt;y &lt;color=green&gt;you&lt;/color&gt;!&lt;/color&gt; <br>
+            - <b>Hey</b>&lt;color=invisible&gt; &lt;color=green&gt;you&lt;/color&gt;!&lt;/color&gt; <br>
+            - <b>Hey </b>&lt;color=invisible&gt;&lt;color=green&gt;you&lt;/color&gt;!&lt;/color&gt; <br>
+            - <b>Hey &lt;</b>&lt;color=invisible&gt;color=green&gt;you&lt;/color&gt;!&lt;/color&gt; // boom! unparsable text <br>
+            <br>
+            The solution was to tell the reveal dialogue system how to handle other rich text control characters (e.g. &lt;b&gt;, &lt;i&gt;, &lt;/color&gt;). 
+            I won't go into implementation details at this point. If you're interested in the code, please write a comment. :-) 
+          </p>
+          <p> </p>
+          <h2>Overworld Overhaul</h2>
+          <p>
+            Although the player will spend most of the time in dungeons while playing ZpellCatz, the overworld is still an important part 
+            of the game. As a first step to polish the game for one of the upcoming Steam Next Fests, I overhauled the overworld elements. 
+            Have a look.
+          </p>
+          <p>Hills:</p>
+          <p> </p>
+          <img src="/games/zpellcatz-assets/dd/recap-2022-04/hills__new.jpg" alt="Autumn Hills New" class="img_616">
+          <p>Beach:</p>
+          <p> </p>
+          <img src="/games/zpellcatz-assets/dd/recap-2022-04/beach__new.jpg" alt="Beach New" class="img_616">
+          <p>Graveyard:</p>
+          <p> </p>
+          <img src="/games/zpellcatz-assets/dd/recap-2022-04/graveyard__new.jpg" alt="Graveyard New" class="img_616">
+          <p> </p>
+          <h2>Unity 2021 Upgrade</h2>
+          <p>
+            I started working on ZpellCatz a long time ago. Back then, the scriptable render pipelines (LWRP) used to be slowish, so I 
+            decided to use the built-in render pipeline of Unity. I created tons of materials with custom shaders in the meantime, so 
+            there's no way back - haha.
+          </p>
+          <p>
+            With Unity 2021, we finally get shader graph for the built-in render pipeline, yay! I have some very basic understanding of 
+            HLSL, but the option to try around different parameters in a GUI will definitively speed up the shader writing process. 
+            Lets see if I'm able to enhance the hero spells' visuals in the upcoming weeks.
+          </p>
+          <p> </p>
+          <h2>Steam Deck Polish</h2>
+          <p>
+            My Steam Deck finally arrived. I started up Legends of Pixelia and was surprised that everything works out of the box. When 
+            I ran ZpellCatz: Pumpkin Prologue, I noticed a lot of issues. So I spent some time in the last couple of weeks to polish the 
+            game for Steam Deck usage. It's nearly finished, you can expect a new version of the Pumpkin Prologue in the upcoming days 
+            that runs ultra smooth on the Deck.
+          </p>
+          <p>
+            That's it for today. Thanks for reading. What do you think about the changes? Are you interested in more hands-on technical 
+            stuff like C# code? Leave a comment or <a href="https://discord.gg/D6CkrUu">join our discord</a>. <br>
+            Have a nice day!
+          </p>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="box_row_dark nav_footer_height">
+        <div class="box_footer">
+          <p>
+            Copyright &copy; 2014 - 2022 Florian Siemer. All rights reserved. <a href="/impressum.html">Impressum</a> <a href="/datenschutz.html">Datenschutz</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
