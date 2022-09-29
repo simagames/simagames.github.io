@@ -379,9 +379,21 @@ nav a:hover {
 	display: block;
 }
 
-.img_800 {
+.img_200 {
 	width: 100%;
-	max-width: 800px;
+	max-width: 200px;
+	display: block;
+}
+
+.img_400 {
+	width: 100%;
+	max-width: 400px;
+	display: block;
+}
+
+.img_480 {
+	width: 100%;
+	max-width: 480px;
 	display: block;
 }
 
@@ -393,19 +405,19 @@ nav a:hover {
 
 .img_616 {
 	width: 100%;
-	max-width: 600px;
+	max-width: 616px;
 	display: block;
 }
 
-.img_400 {
+.img_680 {
 	width: 100%;
-	max-width: 400px;
+	max-width: 680px;
 	display: block;
 }
 
-.img_200 {
+.img_800 {
 	width: 100%;
-	max-width: 200px;
+	max-width: 800px;
 	display: block;
 }
 
