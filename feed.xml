@@ -3,7 +3,7 @@
     <title type="text" xml:lang="en">SimaGames - Recent Updates</title>
     <link type="application/atom+xml" href="https://www.simagames.com/feed.xml" rel="self"/>
     <link type="text/html" href="https://www.simagames.com/" rel="alternate"/>
-    <updated>2022-10-22T00:00:00-05:00</updated>
+    <updated>2023-02-14T00:00:00-06:00</updated>
     <id>https://www.simagames.com/feed.xml</id>
     <author>
       <name>Florian Siemer</name>
@@ -12,35 +12,35 @@
     <logo>https://www.simagames.com/assets/images/sg_logo_96x48.png</logo>
     <rights>Copyright 2014 - 2022 Florian Siemer. All rights reserved.</rights>
     <entry>
-      <title>Legends of Pixelia v1.06</title>
-      <link href="https://www.simagames.com/news/2022-10-22-lop-v106.html" rel="nofollow"/>
-      <updated>2022-10-22T00:00:00-05:00</updated>
-      <id>https://www.simagames.com/news/2022-10-22-lop-v106.html</id>
+      <title>ZpellCatz DevRecap Feb '23 + Version 0.96.0</title>
+      <link href="https://www.simagames.com/news/2023-02-14-zpellcatz-devrecap-update.html" rel="nofollow"/>
+      <updated>2023-02-14T00:00:00-06:00</updated>
+      <id>https://www.simagames.com/news/2023-02-14-zpellcatz-devrecap-update.html</id>
       <content type="html">
-        <![CDATA[<p>Legends of Pixelia has been updated with lots of bug fixes (v1.06). Read on.</p>
-      <p><a href="https://www.simagames.com/news/2022-10-22-lop-v106.html">Full Article &#9654;</a></p>
+        <![CDATA[<p>Today I want to talk about the progress of the last months and the changes of the new version (prologue / demo). Read on.</p>
+      <p><a href="https://www.simagames.com/news/2023-02-14-zpellcatz-devrecap-update.html">Full Article &#9654;</a></p>
       ]]>
     </content>
   </entry>
   <entry>
-    <title>Familiars & 2 Player Mode in ZpellCatz</title>
-    <link href="https://www.simagames.com/news/2022-10-14-zpellcatz-familars-local-co-op.html" rel="nofollow"/>
-    <updated>2022-10-14T00:00:00-05:00</updated>
-    <id>https://www.simagames.com/news/2022-10-14-zpellcatz-familars-local-co-op.html</id>
+    <title>Legends of Pixelia v1.06</title>
+    <link href="https://www.simagames.com/news/2022-10-22-lop-v106.html" rel="nofollow"/>
+    <updated>2022-10-22T00:00:00-05:00</updated>
+    <id>https://www.simagames.com/news/2022-10-22-lop-v106.html</id>
     <content type="html">
-      <![CDATA[<p>Hey there, fellow Catz! Today I want to talk about Familiars and local multiplayer in ZpellCatz. Read on.</p>
-    <p><a href="https://www.simagames.com/news/2022-10-14-zpellcatz-familars-local-co-op.html">Full Article &#9654;</a></p>
+      <![CDATA[<p>Legends of Pixelia has been updated with lots of bug fixes (v1.06). Read on.</p>
+    <p><a href="https://www.simagames.com/news/2022-10-22-lop-v106.html">Full Article &#9654;</a></p>
     ]]>
   </content>
 </entry>
 <entry>
-  <title>NPCs in ZpellCatz: The Blacksmith</title>
-  <link href="https://www.simagames.com/news/2022-10-09-zpellcatz-blacksmith.html" rel="nofollow"/>
-  <updated>2022-10-09T00:00:00-05:00</updated>
-  <id>https://www.simagames.com/news/2022-10-09-zpellcatz-blacksmith.html</id>
+  <title>Familiars & 2 Player Mode in ZpellCatz</title>
+  <link href="https://www.simagames.com/news/2022-10-14-zpellcatz-familars-local-co-op.html" rel="nofollow"/>
+  <updated>2022-10-14T00:00:00-05:00</updated>
+  <id>https://www.simagames.com/news/2022-10-14-zpellcatz-familars-local-co-op.html</id>
   <content type="html">
-    <![CDATA[<p>Hey there, fellow Catz! Today I want to talk about one of the NPCs in ZpellCatz: The Blacksmith. Read on.</p>
-  <p><a href="https://www.simagames.com/news/2022-10-09-zpellcatz-blacksmith.html">Full Article &#9654;</a></p>
+    <![CDATA[<p>Hey there, fellow Catz! Today I want to talk about Familiars and local multiplayer in ZpellCatz. Read on.</p>
+  <p><a href="https://www.simagames.com/news/2022-10-14-zpellcatz-familars-local-co-op.html">Full Article &#9654;</a></p>
   ]]>
 </content>
 </entry>

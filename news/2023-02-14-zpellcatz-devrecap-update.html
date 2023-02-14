@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ZpellCatz DevRecap Feb '23 + Version 0.96.0</title>
+    <meta charset="utf-8">
+    <meta http-equiv='pragma' content='no-cache' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16">
+    <link rel="icon" href="/logo_32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/logo_96.png" type="image/png" sizes="96x96">
+  </head>
+  <body>
+    <div class="box_main">
+      <div class="box_nav_top_dark"></div>
+      <div class="box_row_dark nav_footer_height">
+        <nav>
+          <ul>
+            <li class="nav_left_space"></li>
+            <li> <a href="/" id="nav_active"><img src="/assets/images/3_sg_black_27.png" alt="SimaGames" class="fit_nav_img"></a></li>
+            <li> <a href="/games.html">Games</a></li>
+            <li> <a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="box_row">
+        <div class="box_content path_size">
+          <a href="/">Home</a>
+          &#62; 
+          <a href="/news-archive.html">News</a>
+          &#62; 
+          <a href="/news/2023-02-14-zpellcatz-devrecap-update.html">ZpellCatz DevRecap Feb '23 + Version 0.96.0</a>
+        </div>
+      </div>
+      <div class="box_row">
+        <div class="box_content">
+          <div class="black_headline">
+            <h1 class="black_headline_text">ZpellCatz DevRecap Feb '23 + Version 0.96.0</h1>
+          </div>
+          <p>February 14, 2023</p>
+        </div>
+      </div>
+      <div class="box_row">
+        <div class="box_content">
+          <p>
+            Hey there, fellow Catz! Today I want to talk about the progress of the last months and the changes of the new version (prologue / demo).
+          </p>
+          <p></p>
+          <h2>AI Upgrade</h2>
+          <p>
+            Last time, <a href="/news/2022-10-14-zpellcatz-familars-local-co-op.html">I talked about Familiars in ZpellCatz</a>. Familiars can be 
+            controlled by a friend in local multiplayer or by an AI for moments when there are no friends sitting next to you. ^^ <br>
+            In order to be able to switch back and forth between those two control schemes, I had to upgrade the AI systems for better pathfinding.
+          </p>
+          <p>
+            The cool bonus: The enemy controlling AI also benefited from it! Enemies get stuck in corners less often and multiple melee enemies 
+            that hunt your cat hero do a better job at cooperating as a group.
+          </p>
+          <p>
+            <img src="/games/zpellcatz-assets/dd/recap-2023-02/nav-mesh-grid.jpg" class="img_680">
+          </p>
+          <p>
+            Kudos to Cory Koseck (7ark) for their Unity-Passfinding repo. I used that one as a starting point and adjusted it to my needs. 
+            The red nodes on the image above show blocked paths, the blue nodes with green connections show possible paths. 
+          </p>
+          <p></p>
+          <h2>Floor Visuals</h2>
+          <p>
+            One of the reasons that I started a crowdfunding campaign for ZpellCatz last October was to collect money in order to be able 
+            to polish the art a little bit. Thanks to the support it was possible to add some assets from matching "low poly / polygon" 
+            asset packs. One of these new additions are floor visuals!
+          </p>
+          <p>
+            <img src="/games/zpellcatz-assets/dd/recap-2023-02/pumpkin-ruins.jpg" class="img_680">
+          </p>
+          <p>
+            <img src="/games/zpellcatz-assets/dd/recap-2023-02/plains.jpg" class="img_680">
+          </p>
+          <p>
+            The floor tiles are intentionally kept plain and monochromatic so as not to take the focus away from the combat action. But 
+            they look a lot better than the simple flat ground before.
+          </p>
+          <p></p>
+          <h2>Familiar Skill Trees</h2>
+          <p>
+            Next to the AI update mentioned before, I've also continued to work on the Familiars themselves. Today, lets have a look 
+            at the skill tree of them.
+          </p>
+          <p>
+            Each Familiar has a set of 4 active skills that unlock one by one over the first few levels. In addition to this, Familiars 
+            have passive skills called talents. Most talents affect the Familiar as well as your cat hero. Talents come in a "select A 
+            or B" fashion and can be respected for free in the village.
+          </p>
+          <p>
+            The first two available Familiars are Loki and Bashu. Loki uses high damage ranged spells (fire and nature element). 
+            The active skill "Heat Nova" also reduces the resistances of all enemies hit.
+          </p>
+          <p>
+            <img src="/games/zpellcatz-assets/dd/recap-2023-02/loki-nova.jpg" class="img_680">
+          </p>
+          <p>
+            Loki's talents provide offensive stats like critical chance, spell power or faster cast.
+          </p>
+          <p>
+            <img src="/games/zpellcatz-assets/dd/recap-2023-02/loki-talent.jpg" class="img_680">
+          </p>
+          <p>
+            In contrast, Bashu uses melee spells (lux and storm) and it is able to take a lot more damage than Loki. Two of Bashu's 
+            four active skills scale with max HP as well as spell power, so it's able to deal some damage even if you build it 
+            very defensively.
+          </p>
+          <p>
+            <img src="/games/zpellcatz-assets/dd/recap-2023-02/bashu-light-rays.jpg" class="img_680">
+          </p>
+          <p>
+            Bashu's talents provide defensive stats like block chance, life on hit or hit points.
+          </p>
+          <p>
+            <img src="/games/zpellcatz-assets/dd/recap-2023-02/bashu-talent.jpg" class="img_680">
+          </p>
+          <p>
+            Note: All info here is in development content and subject to change.
+          </p>
+          <p></p>
+          <h2>"Down to Earth" Update (0.96.0) February '23</h2>
+          <p>
+            *** General ***<br>
+            - Fixed ingame texts<br>
+            - Adjusted AI pathfinding to get stuck less often<br>
+            - Minor pause menu UI adjustments<br>
+            - Fixed strange tooltip positions near screen edges<br>
+            - Added floor visuals<br>
+            <br>
+            *** Quality of Life ***<br>
+            - Double clicking a cat's save file now starts the game with that cat<br>
+            <br>
+            *** Balance ***<br>
+            - Fixed wolf and fox AI to feel more like "hit & run"<br>
+            - Flathead enemies (zombies) now have increased defense / HP<br>
+            - Early enemy types (stars, ducks, urchins) now use more interesting spells<br>
+            <br>
+            *** Engine ***<br>
+            - Game engine update<br>
+            - Library updates
+          </p>
+          <p>
+            <a href="/games/zpellcatz-assets/zpellcatz-changelog.html">Full Changelog</a>
+          </p>
+          <p></p>
+          <h2>Stay up to Date</h2>
+          <p>
+            Never miss an update? Add the Atomic Feed (RSS like) to your feed reader:<br>
+            <a href="/feed.xml">https://www.simagames.com/feed.xml</a>
+          </p>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="box_row_dark nav_footer_height">
+        <div class="box_footer">
+          <p>
+            Copyright &copy; 2014 - 2023 Florian Siemer. All rights reserved. <a href="/impressum.html">Impressum</a> <a href="/datenschutz.html">Datenschutz</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
