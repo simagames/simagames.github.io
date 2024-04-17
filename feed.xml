@@ -3,7 +3,7 @@
     <title type="text" xml:lang="en">SimaGames - Recent Updates</title>
     <link type="application/atom+xml" href="https://www.simagames.com/feed.xml" rel="self"/>
     <link type="text/html" href="https://www.simagames.com/" rel="alternate"/>
-    <updated>2024-04-13T00:00:00-05:00</updated>
+    <updated>2024-04-17T00:00:00-05:00</updated>
     <id>https://www.simagames.com/feed.xml</id>
     <author>
       <name>Florian Siemer</name>
@@ -12,35 +12,35 @@
     <logo>https://www.simagames.com/assets/images/sg_logo_96x48.png</logo>
     <rights>Copyright 2014 - 2022 Florian Siemer. All rights reserved.</rights>
     <entry>
-      <title>ZpellCatz "The Look" Update (0.101.3)</title>
-      <link href="https://www.simagames.com/news/2024-04-13-zpellcatz-update.html" rel="nofollow"/>
-      <updated>2024-04-13T00:00:00-05:00</updated>
-      <id>https://www.simagames.com/news/2024-04-13-zpellcatz-update.html</id>
+      <title>ZpellCatz Release Date Announcement</title>
+      <link href="https://www.simagames.com/news/2024-04-17-zpellcatz-announcement.html" rel="nofollow"/>
+      <updated>2024-04-17T00:00:00-05:00</updated>
+      <id>https://www.simagames.com/news/2024-04-17-zpellcatz-announcement.html</id>
       <content type="html">
-        <![CDATA[<p>A new version of the ZpellCatz closed beta is available now featuring a UI overhaul, a new tailor NPC and lots of balance changes. Read on.</p>
-      <p><a href="https://www.simagames.com/news/2024-04-13-zpellcatz-update.html">Full Article &#9654;</a></p>
+        <![CDATA[<p>ZpellCatz now has a release date and we're transitioning from closed beta to open beta. Read on.</p>
+      <p><a href="https://www.simagames.com/news/2024-04-17-zpellcatz-announcement.html">Full Article &#9654;</a></p>
       ]]>
     </content>
   </entry>
   <entry>
-    <title>ZpellCatz "Sharing is Caring" Update (0.100.0)</title>
-    <link href="https://www.simagames.com/news/2024-01-05-zpellcatz-update.html" rel="nofollow"/>
-    <updated>2024-01-05T00:00:00-06:00</updated>
-    <id>https://www.simagames.com/news/2024-01-05-zpellcatz-update.html</id>
+    <title>ZpellCatz "The Look" Update (0.101.3)</title>
+    <link href="https://www.simagames.com/news/2024-04-13-zpellcatz-update.html" rel="nofollow"/>
+    <updated>2024-04-13T00:00:00-05:00</updated>
+    <id>https://www.simagames.com/news/2024-04-13-zpellcatz-update.html</id>
     <content type="html">
-      <![CDATA[<p>2024 starts with a lot of new features for ZpellCatz: Highscore, (shared) stash, new game modes and lots of minor changes. Read on.</p>
-    <p><a href="https://www.simagames.com/news/2024-01-05-zpellcatz-update.html">Full Article &#9654;</a></p>
+      <![CDATA[<p>A new version of the ZpellCatz closed beta is available now featuring a UI overhaul, a new tailor NPC and lots of balance changes. Read on.</p>
+    <p><a href="https://www.simagames.com/news/2024-04-13-zpellcatz-update.html">Full Article &#9654;</a></p>
     ]]>
   </content>
 </entry>
 <entry>
-  <title>ZpellCatz "Very Familiar" Update (0.99.0)</title>
-  <link href="https://www.simagames.com/news/2023-11-18-zpellcatz-beta-update.html" rel="nofollow"/>
-  <updated>2023-11-18T00:00:00-06:00</updated>
-  <id>https://www.simagames.com/news/2023-11-18-zpellcatz-beta-update.html</id>
+  <title>ZpellCatz "Sharing is Caring" Update (0.100.0)</title>
+  <link href="https://www.simagames.com/news/2024-01-05-zpellcatz-update.html" rel="nofollow"/>
+  <updated>2024-01-05T00:00:00-06:00</updated>
+  <id>https://www.simagames.com/news/2024-01-05-zpellcatz-update.html</id>
   <content type="html">
-    <![CDATA[<p>Familiars got some love in this new version of the ZpellCatz closed beta and local multiplayer is finally here. Read on.</p>
-  <p><a href="https://www.simagames.com/news/2023-11-18-zpellcatz-beta-update.html">Full Article &#9654;</a></p>
+    <![CDATA[<p>2024 starts with a lot of new features for ZpellCatz: Highscore, (shared) stash, new game modes and lots of minor changes. Read on.</p>
+  <p><a href="https://www.simagames.com/news/2024-01-05-zpellcatz-update.html">Full Article &#9654;</a></p>
   ]]>
 </content>
 </entry>
