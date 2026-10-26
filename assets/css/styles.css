@@ -410,6 +410,13 @@ nav a:hover {
 	height: 0px;
 }
 
+.iframe_wrapper_steam_announce {
+	position: relative;
+	max-width: 646px;
+	padding-bottom: 190px; /* fix height 190 */
+	height: 0px;
+}
+
 .iframe_wrapper_itchio {
 	position: relative;
 	max-width: 616px;
